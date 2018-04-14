@@ -1,0 +1,13 @@
+---
+  - hosts: all
+    become: yes
+    pre_tasks:
+      - name: Create user
+        user:
+          name: "{{ user_name }}"
+          password: "{{ user_pass | password_hash('sha512') }}"
+          
+    roles:
+      - { role: /home/nvermand/Scripts/ansible/roles/common}
+
+    

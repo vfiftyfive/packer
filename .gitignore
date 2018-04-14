@@ -1,0 +1,6 @@
+.SD_Store
+.AppleDouble
+nested_esxi
+packer_vars*
+packer_cache
+
