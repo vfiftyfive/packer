@@ -1,5 +1,5 @@
-.DS_Store
-.AppleDouble
+.DS_Store/
+.AppleDouble/
 nested_esxi/
 packer_vars*
 packer_cache/
