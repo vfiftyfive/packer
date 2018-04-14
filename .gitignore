@@ -1,6 +1,6 @@
-.DS_Store/
-.AppleDouble/
+DS_Store/*
+AppleDouble/*
 nested_esxi/
 packer_vars*
-packer_cache/
+packer_cache/*
 ansible_vars*
