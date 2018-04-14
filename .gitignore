@@ -3,4 +3,4 @@
 nested_esxi
 packer_vars*
 packer_cache
-ansible_vars
+ansible_vars*
