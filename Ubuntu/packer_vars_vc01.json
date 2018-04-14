@@ -1,0 +1,14 @@
+{
+  "remote_esxi_host": "192.168.81.25",
+  "root_pass": "C1sco123",
+  "datastore_name": "nvermand_esxi_nfs_datastore",
+  "network_name": "corp-nvermand-04",
+  "mem_size": "8192",
+  "num_vcpu": "2",
+  "cluster_name": "pod-03",
+  "datacenter_name": "uktme-01",
+  "vcenter_fqdn": "nvermand-vc-01.uktme.cisco.com",
+  "vsphere_admin_pass": "C!5co123",
+  "vm_name": "packer-ubuntu-xenial",
+  "dest_network_name": "corp-nvermand-04"
+}
