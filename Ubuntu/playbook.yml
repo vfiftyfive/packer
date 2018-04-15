@@ -6,7 +6,16 @@
         user:
           name: "{{ user_name }}"
           password: "{{ user_pass | password_hash('sha512') }}"
-          
+          groups: sudo
+      - replace:
+          path: /etc/network/interfaces
+          regexp: 'ens33'
+          replace: 'ens32'
+      - lineinfile:
+          path: /var/run/network/ifstate
+          line: 'ens32=ens32'
+          state: present
+        
     roles:
       - { role: /home/nvermand/Scripts/ansible/roles/common}
 
