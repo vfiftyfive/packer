@@ -15,6 +15,7 @@
     "remote_password": "{{user `root_pass`}}",
     "remote_datastore": "{{user `datastore_name`}}",
     "format": "vmx",
+    "guest_os_type": "ubuntu64Guest",
     "vnc_disable_password": "true",
     "http_directory": "scripts",
     "vmx_data": {
